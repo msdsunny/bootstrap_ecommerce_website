@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Demo</title>
+    <style>
+      .navbar {
+        background: linear-gradient(-90deg, #84cf6a, #16c0b0);
+        height: 60px;
+      }
+      a:hover{
+          color:black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shadow mb-5 bg-white rounded">
+      <div class="container">
+        <!-- Bootstrap Header -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+          <a class="navbar-brand" href="C:/Users/sunny/Desktop/logo.png">
+            <img src="C:/Users/sunny/Desktop/logo.png" width="130" height="50" alt="" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:black" href="#">Mobile</a>
+              </li>
+              <li class="nav-item">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">Electronics</button>
+                    <div class="dropdown-menu col">
+                        <a href="#" class="dropdown-item"> <b>Mobile > </b> </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Mi</a>
+                        <a href="#" class="dropdown-item">Realme</a>
+                        <a href="#" class="dropdown-item">Oneplus</a>
+                        <a href="#" class="dropdown-item">Sony</a>
+                        <a href="#" class="dropdown-item">Iphone</a>
+                    </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:black" href="#">Computers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:black" href="#">Books</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2 "
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn bg-info my-2 my-sm-0" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Bootstrap Header-->
+    <div class="container"> 
+        <h4 class="text-center"> WELCOME To E-Shopper Shop Your Products At Your Convienience  </h4>
+    </div>
+
+    <!-- Bootstrap Cards-->
+    <div class="container mt-3 bg-primary"> 
+    <div class="card" style="background-color: white;">
+        <div class="card-body bg-white">
+          <h5 class="card-title">Food Beverages & Supplements</h5>
+          <p class="card-text">For Your Health</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+    <!-- Bootstrap Image Cards-->
+    <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="C:/Users/sunny/Desktop/p1.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Amul Icecream</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="C:/Users/sunny/Desktop/p2.png" alt="Card image cap">
+          <hr>
+          <div class="card-body">
+            <h5 class="card-title">Masala and Spices</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="C:/Users/sunny/Desktop/p3.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vegetables</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- Footer Page -->
+    <div class="footer-dark mt-5">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>E-Shoppers</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">@Sunny Maurya 2020</p>
+            </div>
+        </footer>
+    </div>
+
+  </body>
+</html>
